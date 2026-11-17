@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image: 
+    linear-gradient(
+        90deg,
+            rgba(8, 25, 20, 0.96) 0%,
+            rgba(8, 25, 20, 0.78) 38%,
+            rgba(8, 25, 20, 0.10) 100%
+    ),
+            url(backgroundimg.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: #FFFFFF;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+    
+    padding:15px 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.logo img{
+    width:50px;
+    height:54px;
+    object-fit: contain;
+}
+.logo h2{
+    margin: 0;
+    font-size: 22px;
+    color: #176B4D;
+}
+.logo p{
+    margin:3px 0 0;
+    font-size: 11px;
+    color: #5F7068;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color:#20312A
+}
+.links a{
+    color: green;
+    text-decoration: none;
+
+}
+.btn{
+    
+   color: white;
+   background-color: #006341;
+   font-size: medium;
+   border-color:white;
+   
+   border-radius: 7px;
+   padding: 3px 3px 4px 4px ;
+   box-sizing: inherit;}
+.hero-section{
+    margin-top: 150px;
+    margin-left: 30px;
+    
+}  
+
+.herocontent{
+    padding-left: 40px;
+    color: white;
+    max-width: 780px;
+    z-index: 2;
+    position: relative;
+}
+.btn1{
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: 40px;
+    
+    color: #7BC143;
+    background-color:grey;
+   
+    font-size:large;
+}
+h1{
+    font-size: 50px;
+    
+}
+.h1{
+    color:#7BC143;
+}
+p{ 
+    line-height: 1.7;
+    max-width: 680px;
+    color: #FFFFFF;
+}
+.icon{
+    height: 25px;
+    width: auto;
+}
+.division{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    width: 153%;
+    
+    left:2.5%;
+    
+}
+h2{
+    color: green;
+}
+h4{
+    font-size: 15px;
+    color: black;
+}
+.column{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
